@@ -2,7 +2,7 @@
 
 /* 로고 */
 #center {height: 200px; padding: 0px 0px;}
-
+#center	h1>a {margin: 150px 300px 70px 300px;}
 
 /************************* 게시판 공통 ***************************/
 #board table {
