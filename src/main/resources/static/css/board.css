@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* 로고 */
+#center {height: 200px; padding: 0px 0px;}
+
+
+/************************* 게시판 공통 ***************************/
+#board table {
+    width: 820px;
+    border-collapse: collapse; 
+}
+
+/* 폼요소 그룹 */
+#board .form-group {
+    padding: 5px 0px 5px 0px;
+}
+
+/************************ 게시판 리스트 *************************/
+
+/* 검색버튼 */
+.form-group{margin-left: 619px; margin-bottom: 10px; width:200px;}
+#board #list #btn_search {padding: 3.5px 10px 4px 10px;}
+
+/* 게시판 table */
+#list {margin-left: 90px;}
+
+#board #list table>thead>tr {
+    border-top: 2px solid #003366; 
+    border-bottom: 2px solid #003366;
+    background-color: #6699FF; 
+    padding: 0px;
+}
+
+#board #list table>thead>tr>th {
+    padding: 10px 0px 10px 0px;
+    font-weight: bold; 
+}
+
+#board #list table>tbody>tr { 
+    border-bottom: 1px solid #808080;
+}
+
+#board #list table>tbody>tr:hover { 
+	background-color: #3399FF; 
+}
+
+#board #list table>tbody>tr>td {
+    padding: 10px 0px 10px 0px;
+}
+
+/* 게시판 페이징 */
+#board #list #paging {
+	margin: 0px auto;
+	width: 310px;
+}
+
+#board #list #paging ul {margin: 10px 5px 10px 5px;}
+
+#board #list #paging ul>li{
+	float: left;
+	margin: 0px 8px 0px 8px;
+}
+
+#board #list #paging ul>li.active{
+	font-size: 14px;
+	font-weight: bold;
+}
+
