@@ -4,8 +4,8 @@
 <head>
 <meta charset="UTF-8">
 <title>게시판 리스트</title>
-<link href="resources/css/main.css" rel="stylesheet" type="text/css">
-<link href="resources/css/board.css" rel="stylesheet" type="text/css">
+<link href="/resources/css/main.css" rel="stylesheet" type="text/css">
+<link href="/resources/css/board.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -45,11 +45,11 @@
 							<tbody>
 								<!-- <c:forEach items="" var=""> -->
 									<tr>
-										<td>${bMap.NO}</td>
+										<td></td>
 										<td class="text-left"><a href=""></a></td>
-										<td>${bMap.NAME}</td>
-										<td>${bMap.HIT}</td>
-										<td>${bMap.REGDATE}</td>
+										<td></td>
+										<td></td>
+										<td></td>
 										<!-- <c:if test="">
 											<td><a href="">[삭제]</a></td>
 										</c:if> -->
@@ -77,6 +77,12 @@
 							<div class="clear"></div>
 							
 						</div><!-- //paging -->
+						
+						<div class="btn_w">
+						<%-- <c:if test="${authUser != null}"> --%>
+							<a id="btn_write" href="/board/writeForm">글쓰기</a>
+						<!-- </c:if> -->
+						</div>
 					
 					</div>
 					<!-- //list -->

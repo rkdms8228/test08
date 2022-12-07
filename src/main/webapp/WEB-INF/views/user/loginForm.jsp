@@ -4,8 +4,8 @@
 <head>
 <meta charset="UTF-8">
 <title>게시판 로그인 화면</title>
-<link href="resources/css/main.css" rel="stylesheet" type="text/css">
-<link href="resources/css/loginForm.css" rel="stylesheet" type="text/css">
+<link href="/resources/css/main.css" rel="stylesheet" type="text/css">
+<link href="/resources/css/loginForm.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="wrap">
@@ -31,11 +31,11 @@
 					<!-- 로그인 입력 정보 -->
 					<div class="id"><!-- 아이디 -->
 						<label class="form-text" for="input-uid">ID</label>
-						<input type="text" id="input-uid" value="" placeholder="아이디를 입력하세요.">
+						<input type="text" id="input-uid" name="id" placeholder="아이디를 입력하세요.">
 					</div>
 					<div class="pw"><!-- 비번 -->
 						<label class="form-text" for="input-pass">PW</label>
-						<input type="password" id="input-pass" value="" placeholder="비밀번호를 입력하세요.">
+						<input type="password" id="input-pass" name="password" placeholder="비밀번호를 입력하세요.">
 					</div>
 					
 					
