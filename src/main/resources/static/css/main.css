@@ -21,10 +21,13 @@ a:hover {text-decoration: none; color: #000000;}
 #center {width: 1000px; height:600px; padding: 90px 0px 0px 0px; background-color: #FFFFFF;}
 #content {float: left; width: 820px; margin: 20px 0px 0px 0px; background-color: #FFFFFF;}
 
-/* 로고(center: 로고, 로그인관련 버튼) */
+/* 로고(center: 로고, 게시판 관련 버튼,로그인 관련 버튼) */
 #center	h1 {font-size: 100px; font-weight: bold; line-height: 1.1;}
 #center	h1>a {float: left; margin: 150px 300px 105px 300px; font-size: 100px; color:#0099FF;}
-#center ul>li log {margin: 100px 0px 0px 10px;}
+#center ul {float: right; margin: 0px 267px 0px 0px;}
+#center ul>li {float: left; margin-right: 10px;}
+#center ul>li .board {margin: 100px 0px 0px 10px; padding: 10px 50px 10px 50px; border: 2px solid #bfbfbf; border-radius: 2px; font-size: 32px;}
+#center ul>li .log {margin: 100px 0px 0px 10px;}
 #center ul>li .btn_s {padding: 10px 50px 10px 50px; border: 2px solid #bfbfbf; border-radius: 2px; font-size: 32px;}
 
 /* 메인컨텐츠(content) */

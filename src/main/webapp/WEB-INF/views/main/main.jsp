@@ -8,6 +8,7 @@
 <link href="resources/css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+
 	<div id="wrap">
 	
 		<div id="center" class="clearfix">
@@ -18,6 +19,7 @@
 	
 			<!-- 로그인 전 -->
 			<ul>
+				<li><a href="/board" class="board">게시판</a></li>
 				<li><a href="/loginForm" class="btn_s log">로그인</a></li>
 			</ul>
 			<!-- 로그인 후 
@@ -29,5 +31,6 @@
 		</div>
 
 	</div>
+	
 </body>
 </html>
