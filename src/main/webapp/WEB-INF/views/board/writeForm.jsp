@@ -33,18 +33,20 @@
 							<input type="hidden" name="userNo" value="">
 							
 							<!-- 제목 -->
-							<div class="form-group">
+							<div class="form-group write">
 								<label class="form-text" for="txt-title">제목</label>
-								<input type="text" id="txt-title" name="title" value="" placeholder="제목을 입력해 주세요">
+								<input type="text" id="txt-title" name="title" value="" placeholder="제목을 입력해 주세요.">
 							</div>
 						
 							<!-- 내용 -->
-							<div class="form-group">
+							<div class="form-group write">
 								<textarea id="txt-content" name="content" value=""></textarea>
 							</div>
 							
-							<a id="btn_cancel" href="/board">취소</a>
-							<button id="btn_add" type="submit">등록</button>
+							<div class="writeCS_btn">
+								<a id="btn_cancel" href="/board">취소</a>
+								<button id="btn_add" type="submit">등록</button>
+							</div>
 							
 						</form><!-- //form -->
 						
